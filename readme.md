@@ -1,5 +1,6 @@
 ## ResumeRevealer Track: Advanced Resume Parsing Challenge<br>
 ### Home institute: Pandit Deendayal Energy University Gujarat<br>
+###[Video and Demo Link](https://drive.google.com/drive/folders/1ylObFJslXcwDefmXUtW7ImHQ1tuQHBiF?usp=sharing)
 ## Team Name: Ethereum Bots<br>
 ### Team Members: Prayag Bhatt , Denil Bhatt , Aum Pandya , Aniket Suthar , Bhavya Thumar
 
