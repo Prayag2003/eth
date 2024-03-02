@@ -15,14 +15,16 @@ To install the necessary Python packages, please run the following commands:
 
 
 
+
 bash
+```
 !pip install graphviz 
 !pip install pdfminer.six PyPDF2 pytesseract PyMuPDF opencv-python python-docx openai==0.28
 !pip install -U sentence-transformers
 !pip install spacy
 !pip install skillNer
 !python -m spacy download en_core_web_lg
-
+```
 
 Also include OPEN_AI_KEY and HF_TOKEN in your collab notebook
 
