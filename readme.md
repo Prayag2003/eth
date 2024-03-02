@@ -4,6 +4,49 @@
 ## Team Name: Ethereum Bots<br>
 ### Team Members: Prayag Bhatt , Denil Bhatt , Aum Pandya , Aniket Suthar , Bhavya Thumar
 
+<hr>
+
+## Proposed Approach
+<hr>
+
+### 1. Parsing Task
+Streamlining the handling of diverse resume formats through appropriate extraction
+functions.
+
+### 2. Preprocessing -
+Punctuation is removed using regular expressions, and each line is converted to
+lowercase, split into words, and rejoined after eliminating empty strings and spaces.
+This preprocessing yields a lowercase text without punctuation, suitable for
+subsequent analysis.
+
+### 3. Section classification and ordering based on profile
+The identify_sections function categorizes lines of preprocessed text into different
+sections based on predefined rule-based matching, providing a simple yet effective
+approach for section classification.
+
+### 4. Parsing dates -
+The get_date_time function parses date strings, handling both single dates and date
+ranges, returning a tuple of (START_DATE: datetime, END_DATE: datetime) in ISO
+format or None if parsing fails. It efficiently handles various date formats, providing
+flexibility and reliability in date extraction tasks.
+
+### 5. Applying O-net Standardization -
+Utilizing vector embeddings, cosine similarity, and sentence transformers, we apply
+O-net standardization to align candidate profiles with standardized frameworks.
+
+### 6. Skill extraction from the summary -
+Use of n-gram scoring to predict skills along with SentenceTransformer, spacy, and
+custom libraries (skillNer) for natural language processing and skill extraction tasks.
+based on their relevance, producing a comprehensive list of both directly matched
+and predicted skill set.
+
+### 7. Career Trajectory representation using /Graph-
+The career trajectory is graphically depicted using the Digraph class from graphviz,
+which provides a brief and visually intuitive summary of educational and professional
+milestones.
+
+<br>
+
 # Installation Guide
 
 ## Installing Required Packages
