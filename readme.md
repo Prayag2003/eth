@@ -40,7 +40,7 @@ custom libraries (skillNer) for natural language processing and skill extraction
 based on their relevance, producing a comprehensive list of both directly matched
 and predicted skill set.
 
-### 7. Career Trajectory representation using /Graph-
+### 7. Career Trajectory representation using Graph-
 The career trajectory is graphically depicted using the Digraph class from graphviz,
 which provides a brief and visually intuitive summary of educational and professional
 milestones.
